@@ -1,0 +1,12 @@
+.Header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.OrderList {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: oblique;
+}
+.Checkout {
+  font-weight: bolder;
+}

@@ -3,7 +3,7 @@ import classes from './BurgerIngredients.module.css'
 import PropTypes from 'prop-types'
 
 const burgeringredients = props => {
-  let ingredient = null
+  let ingredient
   switch (props.type) {
     case 'bread-bottom':
       ingredient = <div className={classes.BreadBottom}></div>
@@ -42,7 +42,7 @@ const burgeringredients = props => {
 }
 
 burgeringredients.propTypes = {
-  ingredient: PropTypes.string.isRequired
+  type: PropTypes.string.isRequired
 }
 
 export default burgeringredients
